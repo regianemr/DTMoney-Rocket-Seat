@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Header/Summary";
-import { SearchForm } from "./components/SearchForm";
+import { SearchFormContainer } from "./components/SearchForm/styles";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 
 export function Transactions() {
@@ -10,7 +10,7 @@ export function Transactions() {
             <Summary />
 
             <TransactionsContainer>
-                <SearchForm />
+                <SearchFormContainer />
                 
                 <TransactionsTable>
                     <tbody>

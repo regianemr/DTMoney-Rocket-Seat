@@ -13,8 +13,16 @@
             "description": "Hamburguer",
             "type": "outcome",
             "category": "Alimentação",
-            "price": 32.99,
+            "price": 35,
             "createdAt": "2024-10-14T18:58:17.483Z"
+        },
+        {
+            "id": 3,
+            "description": "Muay Thai",
+            "type": "outcome",
+            "category": "Luta",
+            "price": 150,
+            "createdAt": "2024-10-13T15:15:17.483Z"
         }
     ]
 }

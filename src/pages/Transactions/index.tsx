@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
-import { SearchFormContainer } from "./components/SearchForm/styles";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
+import { SearchForm } from "./components/SearchForm";
 
 
 
@@ -17,7 +17,7 @@ export function Transactions() {
             <Summary />
 
             <TransactionsContainer>
-                <SearchFormContainer />
+                <SearchForm />
                 
                 <TransactionsTable>
                     <tbody>

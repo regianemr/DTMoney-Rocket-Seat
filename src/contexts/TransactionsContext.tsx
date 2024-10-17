@@ -4,7 +4,7 @@ import { api } from "../lib/axios";
 interface Transaction {
     id: number;
     description: string;
-    type:  'income' | 'outcome';
+    type: 'income' | 'outcome';
     price: number;
     category: string;
     createdAt: string;
@@ -19,7 +19,9 @@ interface CreateTransactionInput {
 
 interface TransactionContextType {
     transactions: Transaction[]
+    // eslint-disable-next-line no-unused-vars
     fetchTransactions: (query?: string) => Promise<void>
+    // eslint-disable-next-line no-unused-vars
     createTransaction: (data: CreateTransactionInput) => Promise<void>
 }
 
